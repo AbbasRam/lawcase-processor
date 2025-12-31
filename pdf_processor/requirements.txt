@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+celery
+redis
+requests
+psycopg2-binary
+PyMuPDF
+pydantic
+pydantic-settings
