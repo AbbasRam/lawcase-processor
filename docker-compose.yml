@@ -16,7 +16,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "8002:8001"
+      - "80:8001"
     env_file:
       - ./pdf_processor/.env
     depends_on:
