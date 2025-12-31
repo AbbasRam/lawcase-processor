@@ -9,7 +9,6 @@ class Settings(BaseSettings):
     REDIS_BROKER_URL: str
     REDIS_BACKEND_URL: str
     CELERY_WORKER_CONCURRENCY: int
-    API_KEY: str
 
     @property
     def DATABASE_URL(self) -> str:
