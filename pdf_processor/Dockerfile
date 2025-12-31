@@ -7,8 +7,7 @@ WORKDIR /app
 # Install system dependencies required for PyMuPDF (fitz)
 # This is important for handling various image formats within PDFs
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    libmu-dev \
-    libmu-plugins-dev \
+    libmupdf-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy the requirements file into the container
